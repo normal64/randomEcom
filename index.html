@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ur random shoppin'</title>
+</head>
+<body>
+    <div class="cart-items-button">
+        0
+    </div>
+    <section class="hero">
+        <header class="header">
+            <form >
+                <input type="number" name="productsAmount" id="productsAmount" placeholder="Amount of products u wanna c">
+            </form>
+            <button class="start-btn">Okeeey Let's go</button>
+           
+        </header>
+        <section class="filters">
+            <div class="filters-container">
+                <!-- //search -->
+                <form  class="input-form">
+                    <input type="text" placeholder="search" class="search-input">
+                </form>
+                <!-- //price -->
+                <h4>PRice</h4>
+                <form  class="price-form">
+                    <input type="range" class="price-filter" min="0" value="2424240"
+                     max="100">
+                </form>
+            </div>
+        </section>
+        <div class="hero-container">
+           <h1>Come on. i'm loading ...</h1>
+        </div>
+    </section>
+    <div class="cart-bar hide">
+        <button class="close-cart-bar-button">X</button>
+        <h2>Your cart</h2>
+        <div class="side-bar-items">
+
+        </div>
+        <div class="side-bar-total-price">
+            <p class="cart-total">Total: 100$</p>
+        </div>
+    </div>
+    <script    type="module" src="./index.js"></script>
+</body>
+</html>
